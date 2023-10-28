@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+textarea {
+    width: 300px;
+    height: 200px;
+}
+
+table {
+    text-align: left;
+}
+
+td {
+    width: 50%;
+}
+
+#file {
+    margin: 10px auto;
+}
+
+#diffoutput {
+    max-width: 80%;
+    margin: auto;
+}

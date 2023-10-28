@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>jdiff</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <!-- jsdifflib -->
+  <link rel="stylesheet" type="text/css" href="jsdifflib/diffview.css" />
+  <script type="text/javascript" src="jsdifflib/diffview.js"></script>
+  <script type="text/javascript" src="jsdifflib/difflib.js"></script>
+
+</head>
+
+<body>
+  <h1>jdiff</h1>
+  <p>JUnitレポート(TEST-junit-jupiter.xml)から，実際の出力と期待される出力の差分を表示します．</p>
+  <input type="file" id="file" accept=".xml">
+  <br>
+  <div id="diffoutput"></div>
+  <script type="text/javascript" src="jdiff.js"></script>
+</body>
+
+</html>
